@@ -1,3 +1,4 @@
+// 'main.js' is used to build the component alone
 import Component from './Component.vue'
 
 function plugin (Vue) {

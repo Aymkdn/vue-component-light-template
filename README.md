@@ -10,11 +10,11 @@ This is a project template for [vue-cli](https://github.com/vuejs/vue-cli).
 
 ``` bash
 $ npm install -g vue-cli
-$ vue init aymkdn/vue-component-template my-component
+$ vue init aymkdn/vue-component-light-template my-component
 $ cd my-component
 $ npm install poi --save-dev
 $ npm run demo
 $ npm run build
 ```
 
-The generated output in ./dist can be used with node and the browser.
+The generated output in ./dist can be used with the browser.
