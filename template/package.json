@@ -1,0 +1,20 @@
+{
+  "name": "{{ name }}",
+  "version": "0.0.1",
+  "description": "{{ description }}",
+  "author": "{{ author }}",
+  "main": "dist/{{ name }}.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "npm run demo",
+    "demo": "poi ./src/demo.js",
+    "build": "poi build ./src/main.js --filename.js {{ name }}.js --filename.css {{ name }}.css"
+  },
+  "files": [
+    "dist/"
+  ],
+  "keywords": [
+    "vue",
+    "component"
+  ]
+}

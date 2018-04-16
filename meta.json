@@ -1,0 +1,21 @@
+{
+  "prompts": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "label": "Component name in kebab-case format",
+      "default": "v-awesome-component"
+    },
+    "description": {
+      "type": "string",
+      "required": true,
+      "label": "Project description",
+      "default": "A Vue.js component"
+    },
+    "author": {
+      "type": "string",
+      "label": "Author"
+    }
+  },
+  "completeMessage": "To get started:\n\n{{^inPlace}}cd {{destDirName}}\n\n{{/inPlace}}1. Install poi: npm install poi --save-dev\n2. Write your component in src/Component.vue\n3. Write a demo in src/demo.vue\n4. To test the demo: npm run demo\n5. To build your component: npm run build"
+}
